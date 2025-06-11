@@ -12,7 +12,8 @@ phases:
             - echo "Post build phase"
 artifacts:
     files:
-        - '**/*'        
-    discard-paths: yes
+        - index.html
+        - scripts/**/*
+    discard-paths: no
 
             
